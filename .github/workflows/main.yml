@@ -21,5 +21,4 @@ jobs:
           aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws_region: ${{ secrets.AWS_REGION }}
           function_name: getcountinfo.py
-          source: get_count_info.py
-	  dry_run: true
+          source: getcounter.py
