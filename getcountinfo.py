@@ -8,7 +8,7 @@ def lambda_handler(event, context):
   table = dynamodb.Table('countertable')
   response = table.scan()
   data = response['Items']
-
+  print("test")
 
  
   return data
